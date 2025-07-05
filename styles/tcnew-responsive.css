@@ -1,0 +1,413 @@
+@media screen and (max-width: 1800px) {
+		#tcnew .contacts-row div {
+      font-size: 1.2vw;    
+    
+}
+}
+
+@media only screen and (max-width: 1500px) {
+	.banner-tcnew .inner .copy h1 {
+	font-size: 4vw;
+	line-height: 1em;
+	}
+	.banner-tcnew .inner .copy h1 small {
+	font-size: 2vw;
+	}
+	#tcnew .services .inner {
+	font-size: 2vw;
+	line-height: 1.2em;
+	}
+	#tcnew .hours .inner {
+	font-size: 2.5vw;
+	line-height: 1em;
+	}
+	.banner-tcnew .search-jobs-cta {
+	margin-top: 10px;
+	font-size: 1.3vw;
+	}
+	.seal {
+	width: 100px;
+	height: 100px;
+	}
+
+}
+@media only screen and (max-width: 1360px) {
+	#tcnew .bullets-row ul {
+		column-count: 2;
+	}
+	#tcnew .contacts-row div {
+      font-size: 1.3vw;    
+}
+	#tcnew .intro .inner p {
+	font-size: 2vw;
+	line-height: 1.4em;
+}
+	#tcnew .services .inner {
+		font-size: 1.8vw;
+		line-height: 1.2em;
+	}
+	.sub-page-intro-photo .inner {
+		padding: 10% 0px 10%;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	#tcnew .contacts-row {
+    	display: block;
+	}
+	#tcnew .contacts-row div{
+		width: 100%;
+		padding: 20px 20px 20px;
+		border-right: none;
+		border-bottom: 1px solid #0077BC;
+		font-size: 2.4vw;
+		line-height: 1.3em;
+	}
+	#tcnew .contacts-row.four-up div {
+		width: 100%;
+	}
+	#tcnew .contacts-row div:first-child {
+		padding: 20px 20px 20px;
+	}
+	#tcnew .contacts-row div:last-child{
+		padding: 20px 20px 0px;
+		border-bottom: none;
+	}
+	#tcnew .services .inner {
+		width: 90%;
+	}
+	#tcnew .services .inner {
+    font-size: 2.1vw;
+    line-height: 1.2em;
+}
+.banner-tcnew .search-jobs-cta {
+
+	font-size: 2vw;
+}
+}
+@media only screen and (max-width: 900px) {
+#tcnew .services .inner {
+    font-size: 2.5vw;
+    line-height: 1.2em;
+	}
+	#tcnew .cta-row .info {
+    font-size: 3vw;
+    line-height: 1.2em;
+}
+}
+@media only screen and (max-width: 850px) {
+  #tcnew .intro .inner p {
+    font-size: 3.4vw;
+    line-height: 1.5em;
+    font-weight: 400;
+  }
+  #tcnew .intro {
+    margin-bottom: 0 0 20px;
+  }
+  #tcnew .intro .inner {
+    color: #000000;
+    margin: 0 auto 20px;
+  }
+	#tcnew .services .inner {
+		width: 85%;
+		font-size: 2.8vw;
+		line-height: 1.4em;
+	}
+	#tcnew .services .inner h2 {
+		font-size: 4.2vw;
+    	line-height: 1.4em;
+    	text-align: left;
+  }
+  #tcnew .services .inner h3 {
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 1.2em;
+    text-align: center;
+  }
+	#tcnew .bullets-row {
+		width: 100%;
+		display: block;
+	}
+	#tcnew .services .photo {
+		display: block;
+		width: 60%;
+		padding-bottom: 60%;
+		margin: 2em auto 0px;
+	}
+	#tcnew .services .photo::before {
+		top: 3%;
+		left: 3%;
+		right: 3%;
+		bottom: 3%;
+	}
+	#tcnew .cta-row {
+    display: block;
+}
+  #tcnew .cta-row .info {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-right: none;
+    border-bottom: 3px solid #0077bc;
+    width: 0 auto 40px;
+    text-align: center;
+    font-size: 4vw;
+    line-height: 1.35em;
+  }
+  #tcnew .cta-row .logo {
+    margin: 0 auto;
+    display: block;
+	  border-left: none;
+	  padding:0;
+    width: 50%;
+  }
+	#tcnew .hours .inner {
+    	font-size: 4vw;
+    	line-height: 1em;
+    	max-width: 90%;
+	  	padding: 3.25em 0px 1em;
+    	background-repeat: no-repeat;
+    	background-position: center 1em;
+    	background-size: 2em;
+  	}
+	#tcnew .contacts-row div, #tcnew .contacts-row div:first-child, #tcnew .contacts-row div:last-child {
+	    font-size: 5vw;
+	    line-height: 1.3em;
+		padding: 20px 10px;
+		text-align: center;
+	}
+	#tcnew .contacts-row.four-up div {
+		width: 100%;
+	}
+	
+	#tcnew .contacts-row div#sandiego {
+		font-size: 5vw;
+			line-height: 1.3em;
+			text-align: center;
+	}
+	#tcnew .contacts-row div#sandiego p br {
+		display: block;
+	}
+	
+	.corporate-sub p,
+	.corporate-sub ul li {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 768px) {
+	.sub-page-intro-photo .background-image::before {
+		width: 94%;
+		height: 94%;
+		border-radius: 100%;
+		top:50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.sub-page-intro-photo {
+		padding: 0px;
+		margin: 6px auto 0px;
+		/* background-image: url("../images/global/newest-curves.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: top center; */
+	}
+	.sub-page-intro-photo .inner {
+		width: 80%;
+		padding: 80% 0px 12.5%;
+		text-align: center;
+	}
+	.sub-page-intro-photo.lha-intro .inner {
+		width: 80%;
+		padding: 80% 0px 12.5%;
+		text-align: center;
+	}
+	.sub-page-intro-photo .copy {
+		width: 100%;
+	}
+	.sub-page-intro-photo h2 {
+		font-size: 6vw;
+		line-height: 1.05em;
+		letter-spacing: -.02rem;
+	}
+	.sub-page-intro-photo .background-image {
+		left: 50%;
+		top: 1%;
+		bottom: auto;
+		padding-bottom: 70%;
+		border-radius: 50%;
+		width: 70%;
+		transform: translateX(-50%);
+		background-image: -webkit-linear-gradient(65deg, rgba(255,255,255,.0) 25%, rgba(255,255,255,.4) 75%);
+		background-image: -o-linear-gradient(to right, rgba(255,255,255,.0) 25%, rgba(255,255,255,.4) 75%);
+		background-image: linear-gradient(90deg, rgba(255,255,255,.0) 25%, rgba(255,255,255,.4) 75%);
+		box-shadow: 2px 2px 4px 0px rgba(0,0,0,.2);
+	}
+	.sub-page-intro-photo .background-image::after {
+		top: 0%;
+		right: .25%;
+		bottom: 2%;
+		left: 4%;
+		border-radius: 50%;
+		background-image: -webkit-linear-gradient(95deg, rgba(255,255,255,0) 30%, rgba(255,255,255,.4) 100%);
+		background-image: -o-linear-gradient(95deg, rgba(255,255,255,0) 30%, rgba(255,255,255,.4) 100%);
+		background-image: linear-gradient(95deg, rgba(255,255,255,.1) 30%, rgba(255,255,255,.4) 100%);
+	}
+	/* .sub-page-intro-photo .background-image::before {
+		top: 12px;
+		right: 12px;
+		bottom: 12px;
+		left: 12px;
+		border-radius: 50%;
+		background-image: url("../images/sub/support-service/support-services-mobile.jpg");
+		background-size: cover;
+		background-position: center top;
+		background-repeat: no-repeat;
+	} */
+	
+	.bubble-left {
+		background-image: url("../images/global/grey-loops-mobile.png"), linear-gradient(rgba(200,200,200,1) 25%, rgba(245,245,245,1));
+		padding: 4em 0px;
+		background-size: cover;
+	}
+	.bubble-left::before {
+		height: 6px;
+	}
+	.bubble-left::after {
+		bottom: 0%;
+		background-image: linear-gradient(180deg, rgba(255,255,255,.6) 20%,  rgba(255,255,255,0));
+	}
+	.bubble-left .background-image {
+		width: 80%;
+		padding-bottom: 80%;
+		display: block;
+		margin: 0px auto 1.5em;
+		box-shadow: 3px 3px 7px 0px rgba(0,0,0,.1);
+	}
+	.bubble-left .copy {
+		text-align: center;
+		width: 100%;
+		display: block;
+	}
+	.sub-page-intro-photo .inner ul {
+		padding:0;
+	}
+}
+@media only screen and (max-width: 550px) {
+  .banner-tcnew {
+    background-image: url(../images/sub/totalcare/banner-mobile.jpg);
+    background-size: cover !important;
+    background-position: 50% !important;
+    height: 180vw !important;
+    position: relative;
+    z-index: 10;
+  }
+  .banner-tcnew .inner {
+    width: 90%;
+    padding: 1.5em 0px;
+    position: relative;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+  }
+  .banner-tcnew .search-jobs-cta {
+	  display: block;
+	  width: 80%;
+	  text-align: center;
+	  font-size: 16px;
+	  marign-top: 10px;
+	  padding: 10px 15px;
+	  margin: 5px auto 0;
+  }
+  .banner-tcnew .search-jobs-cta span {
+	  font-size: 14px;
+  }
+  .banner-tcnew .search-jobs-cta:after {
+	  content:none;
+  }
+  .banner-tcnew .inner .copy {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    margin: 0 auto;
+	padding: 4% 2%;
+	background-color: rgba(8, 70, 113, 0.799);
+  }
+  .banner-tcnew .inner .copy h1 {
+    font-size: 6.5vw;
+    line-height: 1em;
+    text-align: center;
+   
+  }
+  .banner-tcnew .inner .copy h1 small {
+	  font-size: 4vw;
+  }
+	#tcnew .hours .inner {
+    	font-size: 6.25vw;
+    	line-height: 1em;
+    	max-width: 80%;
+	  	padding: 3.25em 0px 1em;
+    	background-repeat: no-repeat;
+    	background-position: center 1em;
+    	background-size: 2em;
+  	}
+	#tcnew .services .inner {
+		width: 80%;
+		padding: 0px 0px 1.5em;
+		font-size: 4.5vw;
+		line-height: 1.4em;
+	}
+	#tcnew .bullets-row ul {
+		column-count: 1;
+		width: 85%;
+		display: block;
+		margin: 0px auto 1em;
+	}
+	#tcnew .services .inner h2 {
+		font-size: 6.5vw;
+    	line-height: 1em;
+    	text-align: center;
+	}
+	#tcnew .services .inner h3 {
+		font-size: 5vw;
+		line-height: 1.2em;
+	}
+	#tcnew .services .photo {
+		width: 90%;
+		padding-bottom: 90%;
+	}
+	#tcnew .services .photo::before {
+		top: 2%;
+		left: 2%;
+		right: 2%;
+		bottom: 2%;
+	}
+/*
+	#tcnew .cta-row {
+		display: block;
+	}
+*/
+  	#tcnew .cta-row .info {
+		display: block;
+	    margin: 0px 0px 1em;
+    	padding: 0px 0px 1em;
+		border-right: none;
+		border-bottom: 2px solid #0077bc;
+		width: 100%;
+    	text-align: center;
+    	font-size: 4.5vw;
+    	line-height: 1.2em;
+	}
+	#tcnew .cta-row .logo {
+  		margin: 0 auto;
+		display: block;
+		width: 75%;
+	}
+	.fsBody .fsForm #fsRow4652942-5, .fsBody .fsForm #fsRow4652942-6 {
+		display: block;
+		width: 100%;
+	}
+	.fsBody .fsForm #fsRow4652942-6 {
+		margin: 0px auto;
+	}
+}

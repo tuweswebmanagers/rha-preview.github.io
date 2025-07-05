@@ -1,0 +1,562 @@
+@media only screen and (max-width: 1500px) {
+	.hero-graphic-main .carousel > li .inner .copy {
+		font-size: 3vw;
+		line-height: 1em;
+	}
+	.hero-graphic-sub .inner .copy h1 {
+		font-size: 3.5vw;
+		line-height: 1em;
+	}
+	.hero-graphic-sub.arizona-banner .inner .copy h1 {
+		font-size: 2.2vw;
+		line-height: 1em;
+	}
+}
+
+
+@media only screen and (max-width: 1150px) {
+	.banner, .banner.pd-banner, .banner.hhh-banner {
+		min-height: 200px;
+		margin-top: 98px;
+	}
+}
+
+
+@media only screen and (max-width: 850px) {
+	.hero-graphic-main .carousel .slidenav {
+		position: absolute;
+		z-index: 100;
+		bottom: 23px;
+		left: 23%;
+		transform: translate(-50%, 50%)
+	}
+	.hero-graphic-main .carousel .slidenav li {
+		margin: 0px 5px 0px 5px;
+		border: 1px solid rgba(255,255,255,.5);
+		width: 14px;
+		padding-bottom: 14px;
+	}
+	.hero-graphic-main .carousel .slidenav li:hover, .hero-graphic-main .carousel .slidenav li:focus, .hero-graphic-main .carousel .slidenav li:active {
+		transform: translateY(-2px);
+	}
+	.hero-graphic-main .carousel .slidenav li button {
+		font-size: 10px;
+		line-height: 10px;
+		padding: 51px 50px 50px 50px;
+	}
+	.hero-graphic-main .carousel .controls {
+		position: absolute;
+		z-index: 95;
+		top: auto;
+		bottom: 21px;
+		left: 23%;
+		transform: translate(-50%, 50%);
+		width: 160px;
+	}
+	.hero-graphic-main .carousel .controls li {
+		position: absolute;
+		z-index: 1;
+	}
+	.hero-graphic-main .carousel .controls li:first-child {
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%) translateX(0px);
+	}
+	.hero-graphic-main .carousel .controls li:first-child:hover, .hero-graphic-main .carousel .controls li:first-child:focus, .hero-graphic-main .carousel .controls li:first-child:active {
+		transform: translateY(-50%) translateX(-5px);
+	}
+	.hero-graphic-main .carousel .controls li:last-child {
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%) translateX(0px);
+	}
+	.hero-graphic-main .carousel .controls li:last-child:hover, .hero-graphic-main .carousel .controls li:last-child:focus, .hero-graphic-main .carousel .controls li:last-child:active {
+		transform: translateX(5px);
+	}
+	.hero-graphic-main .carousel button img {
+		width: 9px;
+		height: 9px;
+	}
+	ul.secondary-nav {
+		margin: 0px auto;
+		display: block;
+		background-color: #ffffff;
+	}
+	ul.secondary-nav li {
+		width: 100%;
+		text-align: center;
+		margin-top: 2px;
+	}
+	ul.secondary-nav li a {
+		font-size: 14px;
+		line-height: 14px;
+		padding: 15px;
+	}
+	ul.secondary-nav li:first-child a {
+		border-right: 0px solid #ffffff;
+	}
+	ul.secondary-nav li:nth-child(2) a {
+		border-right: 0px solid #ffffff;
+		border-left: 0px solid #ffffff;
+	}
+	ul.secondary-nav li:last-child a {
+		border-left: 0px solid #ffffff;
+	}
+	#search-results .search-hit a {
+		font-size: 6.5vw;
+		line-height: 1em;
+	}
+	#search-results .search-fragments {
+		font-size: 14px;
+		line-height: 18px;
+		padding: 0px 0px;
+	}
+	#search-results .pagination {
+		text-align: center;
+		padding: 10px 0px 0px 0px
+	}
+}
+
+
+@media only screen and (max-width: 550px) {
+	ul.secondary-nav {
+		display: none;
+	}
+	.hero-graphic-main .banner-h1-inner {
+		display: none;
+	}
+	.hero-graphic-main .carousel .slidenav {
+		left: 50%;
+	}
+	.hero-graphic-main .carousel .controls {
+		left: 50%;
+	}
+	.banner, .banner.pd-banner, .banner.hhh-banner {
+		height: 125vw;
+		max-height: calc(100vh - 155px);
+		position: relative;
+		z-index: 10;
+	}
+	.banner.client-support {
+		height: 350px;
+		
+	}
+	.hero-graphic-sub.client-support{
+		display: flex;
+		
+	}
+	.hero-graphic-sub.client-support .inner {
+		margin: auto;
+	}
+	.hero-graphic-sub.client-support .inner .copy h1 {
+		font-size: 7vw;
+	}
+	.blog-banner {
+		height: 105vw;
+		max-height: calc(100vh - 155px);
+		position: relative;
+		z-index: 10;
+		background-image: url("../images/global/top-arch.png"), url("../images/global/blog-banner.jpg");
+		background-size: contain, cover !important;
+		background-position: center bottom !important;
+		background-repeat: no-repeat;
+	}
+	.hero-graphic-sub .inner {
+		width: 90%;
+		padding: 1.5em 0px;
+		position: relative;
+		z-index: 1;
+		top: 0%;
+		left: 0%;
+		transform: translate(0%, 0%);
+	}
+	.hero-graphic-sub .inner .copy::after {
+	    width: 160%;
+	    padding-bottom: 85%;
+	    right: auto;
+		left: 50%;
+	    top: auto;
+		bottom: 0;
+	    transform: translate(-50%, 2.8em);
+		box-shadow: 3px 3px 9px 0px rgba(25,60,90,.25);
+	}
+	.hero-graphic-main .carousel > li .inner {
+		width: 80%;
+		padding: 1em 0px 3.5em;
+		top: auto;
+		bottom: 0%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+	}
+	.hero-graphic-main .carousel > li .inner .copy, .hero-graphic-sub .inner .copy {
+		position: relative;
+		z-index: 1;
+		width: 100%;
+	}
+	.hero-graphic-main .carousel > li .inner .copy {
+		font-size: 7vw;
+		line-height: 1em;
+	}
+	.hero-graphic-main .carousel > li .inner .copy span {
+		font-size: inherit;
+		line-height: 1em;
+		transform: translateX(0%);
+		opacity: 0;
+		transition: all .1s ease-in-out 0s;
+	}
+	.hero-graphic-main .carousel > li.current .inner .copy span {
+		transform: translateX(0%);
+		opacity: 1;
+		transition: all .3s ease-in-out .6s;
+	}
+	.hero-graphic-main .carousel > li .inner .copy::after {
+	    width: 250%;
+	    padding-bottom: 105%;
+	    right: auto;
+		left: 50%;
+	    top: 0;
+		bottom: auto;
+	    transform: translate(-50.5%, 2.8em);
+		box-shadow: 3px 3px 9px 0px rgba(25,60,90,.25);
+		opacity: 0;
+		transition: all .2s ease-in-out .1s;
+	}
+	.hero-graphic-main .carousel > li.current .inner .copy::after {
+	    transform: translate(-50.5%, -1.8em);
+		opacity: 1;
+		transition: all .4s ease-in-out .3s;
+	}
+	.hero-graphic-sub .inner {
+		width: 80%;
+	}
+	.hero-graphic-sub .inner .copy h1 {
+		font-size: 8vw;
+		line-height: 1em;
+	}
+	.hero-graphic-sub.arizona-banner .inner .copy h1 {
+		font-size: 5.2vw;
+		line-height: 1em;
+	}
+	.hero-graphic-sub .inner .copy h1 .logo {
+		display: none;
+	}
+	
+	/*Main Banner */	
+	.hero-graphic-main .carousel > li#slide1 {
+		background-image: url("../images/main/slides/slide2-mobile.webp");
+	}
+	.hero-graphic-main .carousel > li#slide2 {
+		background-image: url(../images/main/slides/slide1-mobile.webp);
+	}
+	.hero-graphic-main .carousel > li#slide3 {
+		background-image: url(../images/main/slides/slide4-mobile.webp);
+	}
+        .hero-graphic-main .carousel > li#slide4 {
+		background-image: url(../images/main/slides/slide3-mobile.webp);
+	}
+	
+	/* PD Banner */ 
+	.pd-banner .hero-graphic-main .carousel > li#slide1 {
+		background-image: url("../images/sub/private-duty-slides/slide1-mobile.jpg");
+	}
+	.pd-banner .hero-graphic-main .carousel > li#slide2 {
+		background-image: url(../images/sub/private-duty-slides/slide2-mobile.jpg);
+	}
+	.pd-banner .hero-graphic-main .carousel > li#slide3 {
+		background-image: url(../images/sub/private-duty-slides/slide3-mobile.jpg);
+	}
+	/* HHH Banner */
+	.hhh-banner .hero-graphic-main .carousel > li#slide1 {
+		background-image: url("../images/sub/home-health-slides/slide1-mobile.jpg");
+	}
+	.hhh-banner .hero-graphic-main .carousel > li#slide2 {
+		background-image: url(../images/sub/home-health-slides/slide2-mobile.jpg);
+	}
+	.hhh-banner .hero-graphic-main .carousel > li#slidek {
+		background-image: url(../images/sub/home-health-slides/slide3-mobile.jpg);
+	}
+	
+	/*-- ---- ---- ---- UNIQUE BANNERS ---- ---- ---- --*/
+
+.accessibility-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/accessibility/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.accreditation-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/accreditation/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.adult-pdn-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/adult-pdn/banner-adult-pdn-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.behavioral-therapy-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/behavioral-therapy/banner-behaive-ther-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.companionship-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/personal-care/banner-pc-companion-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.community-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/community/banner.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.colorado-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/colorado/colorado-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom, center top !important;
+}
+.ca-accredited-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/accredited/accredited-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom, center top !important;
+}
+
+.compliance-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/compliance/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.contact-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/referrals/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.covid-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/covid/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.difference-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/difference/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.employee-resources-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/resources/employee-resources/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.employee-tuition-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/resources/employee-resources/employee-tuition/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.family-resources-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/resources/family-resources/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.habilitation-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/habilitation-services/banner-habilitation-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.homehlth-banner {
+	background-image: url("../images/global/top-arch.png"), url("../../home-health/files/images/sub/home-health/banner-homehlth-sub-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.hhh-faq-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/hospice-faqs/banner-hospice-faqs-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.hhh-volunteer-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/hospice-volunteers/banner-hospice-volunteers-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.hospice-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/hospice/banner-hospice-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.make-referral-banner {
+	background-image: url("../images/global/top-arch.png"), url("../../home-health/files/images/sub/make-a-referral/banner-homehlth-sub-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.hospice-when-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/when/banner-hospice-when-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.insurance-process-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/resources/family-resources/insurance-process/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.leadership-banner-background {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/leadership/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.location-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/locations/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.non-descrimination-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/global/blog-banner.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.occupational-therapy-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/occ-therapy/banner-occ-therapy-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.pd-nursing-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/pediatric-apdn/banner-ped-apdn-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.pdhc-banner  {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/pdhc/banner-pdhc-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.pediatric-pc-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/ped-personal-care/banner-ped-pc-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.pediatric-pdn-banner  {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/pediatric-pdn/banner-ped-pdn-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.pediatric-therapy-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/ped-therapy/banner-ped-therapy-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.personal-care-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/pers-care-and-companionship/banner-pers-care-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.phys-therapy-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/phys-therapy/banner-phys-therapy-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.privacy-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/privacy-policy/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+
+.medical-bill-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/medical-bills/medical-bills-banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+
+.privacy-banner-2 {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/privacy-policy/banner-mobile-2.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.privacy-banner-3 {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/privacy-policy/banner-mobile-3.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.referral-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/referrals/banner-mobile2.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.hhh-banner .referral-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/referral-sources/banner-referral-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.school-nursing-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/school-nursing/banner-sch-nursing-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.school-staff-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/educational/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.sl-therapy-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/speech-lang-therapy/banner-sl-therapy-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.specialty-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/specialty-programs/banner-specialty-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.support-serv-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/support-service/banner-support-serv-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.story-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/our-story/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.testimonials-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/patient-testimonials/banner-testimonials-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.totalcare-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/totalcare/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.values-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/values/banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.new-values-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/values/banner-mobile2.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.phys-therapy-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/phys-therapy/banner-phys-therapy-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+.pdhc-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/pdhc/banner-pdhc-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+}
+	
+.dailypay-banner {
+	background-image: url("../images/global/top-arch.png"), url("../images/sub/dailypay/dp-banner-mobile.jpg");
+	background-size: contain, cover !important;
+	background-position: center bottom !important;
+	border-bottom: 0px solid #0077bc;
+}
+.dailypay-banner .inner .copy::after {
+	background-image: url("../images/sub/dailypay/dp-faqs-back.svg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.hero-graphic-sub.dailypay-banner .inner .copy h1 {
+		font-size: 7.5vw;
+		line-height: 1em;
+}
+	
+}

@@ -1,0 +1,12 @@
+User-Agent: *
+Allow: /
+Disallow: /TEMPLATE_BASE.html
+Disallow: /TEMPLATE_blog_article.html
+Disallow: /TEMPLATE_blog_listing.html
+Disallow: /TEMPLATE_blog.html
+Disallow: /TEMPLATE_location_overview.html
+Disallow: /TEMPLATE_location_search.html
+Disallow: /TEMPLATE_location_view.html
+Disallow: /SupportServicesTimecard
+Disallow: /static/sites/www/files/pdf/Generic-Eng-Timecard.pdf
+Sitemap: https://www.aveanna.com/sitemap.xml

@@ -1,0 +1,1029 @@
+/**************************** HERO SLIDERS AND BANNERS ****************************/
+
+/*-- ---- ---- ---- BANNER GENERAL ---- ---- ---- --*/
+
+.banner {
+	width: 100%;
+	height: 40vw;
+	max-height: calc(100vh - 205px);
+	min-height: 450px;
+	margin-top: 135px;
+	background-color: #999999;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	color: #ffffff;
+}
+@media screen and (min-width: 1200px) {
+	.client-support.banner {
+		height: 30vw;
+	}
+}
+.banner.pd-banner {
+	width: 100%;
+	height: 37vw;
+	max-height: calc(100vh - 165px);
+	min-height: 450px;
+	margin-top: 133px;
+	background-color: #999999;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	color: #ffffff;
+}
+.banner.hhh-banner {
+	width: 100%;
+	height: 37vw;
+	max-height: calc(100vh - 165px);
+	min-height: 450px;
+	margin-top: 133px;
+	background-color: #999999;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	color: #ffffff;
+}
+.blog-banner {
+	width: 100%;
+	height: 32vw !important;
+	max-height: calc(100vh - 205px);
+	min-height: 380px;
+	margin-top: 137px;
+	background-color: #999999;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	color: #ffffff;
+	background-image: url("../images/global/blog-banner.jpg");
+	background-position: right center;
+	background-size: cover;
+}
+.search-banner {
+	width: 100%;
+	height: 24vw !important;
+	max-height: calc(100vh - 245px);
+	min-height: 300px;
+	margin-top: 137px;
+	background-color: #999999;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	color: #ffffff;
+	background-image: url("../images/global/blog-banner.jpg");
+	background-position: right center;
+	background-size: cover;
+}
+.hero-graphic h1 {
+	line-height: 1.1em;
+	margin: 0px;
+	padding: 0px;
+}
+.hero-graphic-main .banner-h1-inner {
+	position: absolute;
+	z-index: 10;
+	top: 36%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 85%;
+	max-width: 1500px;
+}
+.hero-graphic-main .front-page-logo {
+	background-image: url("../images/global/rockgarden-homecare-agency-logo-white.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 38%;
+	padding-bottom: 13%;
+}
+.hero-graphic-main.homehealth-banner .front-page-logo {
+	background-image: url("../images/global/rockgarden-homecare-agency-logo-white.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 38%;
+	padding-bottom: 26%;
+}
+.hero-graphic-main.privateduty-banner .front-page-logo {
+	background-image: url("../images/global/rockgarden-homecare-agency-logo-white.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 38.5%;
+	padding-bottom: 7.5%;
+}
+.corporate-sub section.hero-graphic-sub {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-size: cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.private-duty-sub section.hero-graphic-sub {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-size: cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.home-health-sub section.hero-graphic-sub {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-size: cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.hero-graphic-sub .inner {
+	width: 85%;
+	max-width: 1450px;
+	position: absolute;
+	z-index: 1;
+	top: 47%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.hero-graphic-sub .inner .copy {
+	position: relative;
+	z-index: 1;
+	width: 40%;
+}
+.hero-graphic-sub .inner .copy::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 200%;
+    padding-bottom: 300%;
+    right: -20%;
+    top: 50%;
+    transform: translateY(-45%);
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out 0s;
+	background-color: #0077bc;
+}
+.hero-graphic-sub .inner .copy h1 {
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 46px;
+	letter-spacing: .01em;
+	font-weight: 300;
+}
+.hero-graphic-sub .inner .copy h1 .logo {
+	width: 50%;
+	padding-bottom: 40%;
+	margin: 0px auto 0em;
+	background-image: url(../images/global/aveanna-logo-white.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.client-support.hero-graphic-sub {
+	background: rgb(3,141,167);
+	background: linear-gradient(172deg, rgba(3,141,167,1) 0%, rgba(86,196,216,1) 100%); 
+}
+
+.client-support.hero-graphic-sub .inner .copy {
+	width: 100%;
+	margin: 0 auto;
+}
+.client-support.hero-graphic-sub .inner .copy:after {
+	content: none;
+}
+
+.client-support.hero-graphic-sub .inner .copy h1 .logo.client-support {
+	width: 460px;
+	  height: 232px;
+	padding-bottom:0;
+	background-image: url("../images/sub/support-service/support-service-logo.svg");
+}
+
+.pd-banner .hero-graphic-sub .inner .copy h1 .logo {
+	width: 75%;
+	padding-bottom: 20%;
+	margin: 0px auto .25em;
+	background-image: url("../images/global/aveanna-privateduty-logo-white.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.hhh-banner .hero-graphic-sub .inner .copy h1 .logo {
+	width: 75%;
+	padding-bottom: 20%;
+	margin: 0px auto .25em;
+	background-image: url("../images/global/aveanna-homehlth-logo-white.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+/*-- ---- ---- ---- BANNER GENERAL ---- ---- ---- --*/
+
+.hero-graphic-main .carousel {
+	display: block;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+}
+.hero-graphic-main .carousel > li {
+	position: absolute;
+	z-index: 1;
+	top: 1px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	bottom: -1px;
+	transform: translateY(-1px);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all .4s ease-in-out;
+}
+.hero-graphic-main .carousel > li {
+	opacity: 0;
+}
+.hero-graphic-main .carousel > li.current {
+	opacity: 1;
+}
+.hero-graphic-main .carousel > li .inner {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	width: 85%;
+}
+.hero-graphic-main .carousel > li .inner .copy {
+	position: relative;
+	z-index: 1;
+	width: 40%;
+	text-align: center;
+	font-size: 41px;
+	line-height: 41px;	color: #fff;
+	margin:0;
+	letter-spacing: 0;
+	font-weight: normal;
+}
+
+.hero-graphic-main .carousel > li .inner .copy::after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	width: 200%;
+	padding-bottom: 300%;
+	border-radius: 50%;
+	right: -10%;
+	top: 50%;
+	transform: translate(-20%, -55%);
+	opacity: 0;
+	transition: all .2s ease-in-out;
+}
+.hero-graphic-main .carousel > li.current .inner .copy::after {
+	transform: translate(0%, -55%);
+	opacity: 1;
+	transition: all .4s ease-in-out .3s;
+}
+.hero-graphic-main .carousel > li .inner .copy span {
+	display: block;
+	transform: translateX(-10%);
+	opacity: 0;
+	transition: all .1s ease-in-out 0s;
+}
+.hero-graphic-main .carousel > li.current .inner .copy span {
+	transform: translateX(-2%);
+	opacity: 1;
+	transition: all .3s ease-in-out .6s;
+}
+
+/*-- ---- Numbered Slide Controls & Stop/Play ---- --*/
+
+.hero-graphic-main .carousel .slidenav {
+	position: absolute;
+	z-index: 100;
+	bottom: 25px;
+	left: 20px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.hero-graphic-main .carousel .slidenav li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0px;
+	margin: 0px 0px 0px 7px;
+	border: 2px solid rgba(255,255,255,.5);
+	border-radius: 50px;
+	width: 19px;
+	padding-bottom: 19px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	transition: all .2s ease-in-out;
+}
+.hero-graphic-main .carousel .slidenav li:hover, .hero-graphic-main .carousel .slidenav li:focus, .hero-graphic-main .carousel .slidenav li:active {
+	transform: translateY(-3px);
+}
+.hero-graphic-main .carousel .slidenav li button {
+	font-family: proxima-nova, sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+	font-size: 11px;
+	line-height: 11px;
+	background-color: rgba(255,255,255,0);
+	color: #ffffff;
+	font-weight: 700;
+	border: 0px solid #ffffff;
+	margin: 0px;
+	display: block;
+	padding: 50px 50px 50px 49px;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .2s all ease-in-out;
+}
+.hero-graphic-main .carousel .slidenav li button:hover, .hero-graphic-main .carousel .slidenav li button:focus, .hero-graphic-main .carousel .slidenav li button:active {
+	background-color: #0a3e5c;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/*-- ---- Prev/Next Controls ---- --*/
+
+.hero-graphic-main .carousel .controls {
+	position: absolute;
+	z-index: 100;
+	top: 23px;
+	left: 20px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+.hero-graphic-main .carousel .controls li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0px !important;
+	margin: 0px 0px 0px 0px;
+	transition: all .2s ease-in-out;
+}
+.hero-graphic-main .carousel .controls li:first-child:hover, .hero-graphic-main .carousel .controls li:first-child:focus, .hero-graphic-main .carousel .controls li:first-child:active {
+	transform: translateX(-5px);
+}
+.hero-graphic-main .carousel .controls li:last-child:hover, .hero-graphic-main .carousel .controls li:last-child:focus, .hero-graphic-main .carousel .controls li:last-child:active {
+	transform: translateX(5px);
+}
+.hero-graphic-main .carousel .controls li button {
+	font-family: proxima-nova, sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+	font-size: 11px;
+	line-height: 11px;
+	background-color: rgba(255,255,255,0);
+	color: #ffffff;
+	font-weight: 700;
+	border: 0px solid #ffffff;
+	margin: 0px;
+	display: block;
+}
+.hero-graphic-main .carousel .slidenav li button.current {
+	background-color: rgba(255,255,255,1);
+	color: #053d5d;
+}
+.hero-graphic-main .carousel .slidenav li li:last-child button.current {
+	background-color: rgba(255,255,255,1);
+	color: #06866B;
+}
+.hero-graphic-main .carousel button img {
+	width: 12px;
+	height: 12px;
+}
+
+
+/*-- ---- ---- ---- UNIQUE SLIDES---- ---- ---- --*/
+
+/*-- ---- Main Slider ---- --*/
+
+.hero-graphic-main .carousel > li#slide1 {
+	background-image: url(../images/main/slides/slide2-desktop.webp);
+	background-color: #0077BC;
+}
+.hero-graphic-main .carousel > li#slide1 .inner .copy::after {
+	background-color: #0077BC;
+}
+.hero-graphic-main .carousel > li#slide2 {
+	background-image: url(../images/main/slides/slide1-desktop.webp);
+	background-color: #0077BC;
+}
+.hero-graphic-main .carousel > li#slide2 .inner .copy::after {
+	background-color: #0077BC;
+}
+.hero-graphic-main .carousel > li#slide3 {
+	background-image: url(../images/main/slides/slide4-desktop.webp);
+	background-color: #0077BC;
+}
+.hero-graphic-main .carousel > li#slide3 .inner .copy::after {
+	background-color: #0077BC;
+}
+
+.hero-graphic-main .carousel > li#slide4 {
+	background-image: url(../images/main/slides/slide3-desktop.webp);
+	background-color: #0077BC;
+}
+.hero-graphic-main .carousel > li#slide4 .inner .copy::after {
+	background-color: #0077BC;
+}
+
+/*-- ---- Private Duty Slider ---- --*/
+
+.pd-banner .hero-graphic-main .carousel > li#slide1 {
+	background-image: url("../images/sub/private-duty-slides/slide1-desktop.jpg");
+	background-color: #0077BC;
+}
+.pd-banner .hero-graphic-main .carousel > lii#slide1 .inner .copy::after {
+	background-color: #0077BC;
+}
+.pd-banner .hero-graphic-main .carousel > li#slide2 {
+	background-image: url("../images/sub/private-duty-slides/slide2-desktop.jpg");
+	background-color: #0077BC;
+}
+.pd-banner .hero-graphic-main .carousel > li#slide2 .inner .copy::after {
+	background-color: #0077BC;
+}
+.pd-banner .hero-graphic-main .carousel > li#slide3 {
+	background-image: url("../images/sub/private-duty-slides/slide3-desktop.jpg");
+	background-color: #0077BC;
+}
+.pd-banner .hero-graphic-main .carousel > li#slide3 .inner .copy::after {
+	background-color: #0077BC;
+}
+
+/*-- ---- Home Health and Hospice Slider ---- --*/
+
+.hhh-banner .hero-graphic-main .carousel > li#slide1 {
+	background-image: url(../images/sub/home-health-slides/slide1-desktop.jpg);
+	background-color: #0077BC;
+}
+.hhh-banner .hero-graphic-main .carousel > li#slide1 .inner .copy::after {
+	background-color: #0077BC;
+}
+.hhh-banner .hero-graphic-main .carousel > li#slide2 {
+	background-image: url(../images/sub/home-health-slides/slide2-desktop.jpg);
+	background-color: #0077BC;
+}
+.hhh-banner .hero-graphic-main .carousel > li#slide2 .inner .copy::after {
+	background-color: #0077BC;
+}
+.hhh-banner .hero-graphic-main .carousel > li#slide3 {
+	background-image: url(../images/sub/home-health-slides/slide3-desktop.jpg);
+	background-color: #0077BC;
+}
+.hhh-banner .hero-graphic-main .carousel > li#slide3 .inner .copy::after {
+	background-color: #0077BC;
+}
+
+
+/*-- ---- ---- ---- UNIQUE BANNERS ---- ---- ---- --*/
+
+.accessibility-banner {
+	background-image: url("../images/sub/accessibility/banner.jpg");
+}
+.accessibility-banner .inner .copy::after {
+	background-color: #06866b;
+}
+
+.accreditation-banner {
+	background-image: url("../images/sub/accreditation/banner.jpg");
+	background-position: center !important;
+}
+.accreditation-banner .inner .copy::after {
+	background-color: #06866b !important;
+}
+.tricare-banner {
+	background-image: url('../images/sub/tricare/tricare-banner-desktop.jpg');
+}
+.adult-pdn-banner {
+	background-image: url("../images/sub/adult-pdn/banner-adult-pdn-desktop.jpg");
+}
+.adult-pdn-banner .inner .copy::after {
+	background-color: #0077bc !important;
+}
+
+.behavioral-therapy-banner {
+	background-image: url("../images/sub/behavioral-therapy/banner-behaive-ther-desktop.jpg");
+}
+.behavioral-therapy-banner .inner .copy::after {
+	background-color: #047d96 !important;
+}
+
+.colorado-banner {
+	background-image: url("../images/sub/colorado/colorado-desktop.jpg");
+}
+
+.ca-accredited-banner {
+	background-image: url("../images/sub/accredited/accredited-desktop.jpg");
+}
+
+.companionship-banner {
+	background-image: url("../images/sub/personal-care/banner-pc-compan-desktop.jpg");
+}
+.companionship-banner .inner .copy::after {
+	background-color: #0077bc !important;
+}
+
+.community-banner {
+	background-image: url("../images/sub/community/banner.jpg");
+	background-position: center !important;
+}
+
+.compliance-banner {
+	background-image: url("../images/sub/compliance/banner.jpg");
+	background-position: center !important;
+}
+
+.contact-banner {
+	background-image: url("../images/sub/referrals/banner-desktop.jpg");
+	background-position: center !important;
+}
+.contact-banner .inner .copy::after {
+	background-color: #06866b;
+}
+
+.covid-banner {
+	background-image: url("../images/sub/covid/banner-desktop.jpg");
+}
+
+.dailypay-banner {
+	background-image: url("../images/sub/dailypay/dp-banner.jpg");
+	background-position: center !important;
+	border-bottom: 12px solid #0077bc;
+	border-image: linear-gradient(90deg, #0a3e5c -10%, #0077bc 35%, #0077bc 65%, #0a3e5c 110%) 1;
+}
+.dailypay-banner .inner .copy::after {
+	background-image: url("../images/sub/dailypay/dp-faqs-back.svg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.hero-graphic-sub.dailypay-banner .inner .copy h1 {
+	font-size: 3.5vw;
+	line-height: 1em;
+}
+
+.difference-banner {
+	background-image: url("../images/sub/difference/banner.jpg");
+	background-position: center !important;
+}
+
+.employee-resources-banner {
+	background-image: url("../images/sub/resources/employee-resources/banner.jpg");
+}
+.employee-resources-banner .inner .copy::after {
+	background-color: #06866b;
+}
+
+.employee-tuition-banner {
+	background-image: url("../images/sub/resources/employee-resources/employee-tuition/banner.jpg");
+}
+
+.family-resources-banner {
+	background-image: url("../images/sub/resources/family-resources/banner.jpg");
+}
+
+.habilitation-banner {
+	background-image: url("../images/sub/habilitation-services/banner-habilitation-desktop.jpg");
+}
+.habilitation-banner .inner .copy::after {
+	background-color: #0077bc !important;
+}
+
+.hhh-faq-banner {
+	background-image: url("../images/sub/hospice-faqs/banner-hospice-faqs-desktop.jpg");
+}
+.hhh-faq-banner .inner .copy::after {
+	background-color: #0077bc !important;
+}
+
+.hhh-volunteer-banner {
+	background-image: url("../images/sub/hospice-volunteers/banner-hospice-volunteers-desktop.jpg");
+}
+.hhh-volunteer-banner .inner .copy::after {
+	background-color: #0077bc !important;
+}
+
+.homehlth-banner {
+	background-position: top right;
+	background-image: url("../../home-health/files/images/sub/home-health/banner-homehlth-desktop.jpg");
+}
+.homehlth-banner .inner .copy::after {
+	background-color: rgb(0,117,201) !important;
+}
+
+.hospice-banner {
+	background-image: url("../images/sub/hospice/banner-hospice-desktop.jpg");
+}
+.hospice-banner .inner .copy::after {
+	background-color: #047d96 !important;
+}
+
+.make-referral-banner {
+	background-image: url("../../home-health/files/images/sub/make-a-referral/banner-homehlth-desktop.jpg");
+}
+.make-referral-banner .inner .copy::after {
+	background-color: #047d96 !important;
+}
+
+.hospice-when-banner {
+	background-image: url("../images/sub/when/banner-hospice-when-desktop.jpg");
+}
+.hospice-when-banner .inner .copy::after {
+	background-color: #0077bc !important;
+}
+
+.insurance-process-banner {
+	background-image: url("../images/sub/resources/family-resources/insurance-process/banner.jpg");
+}
+.insurance-process-banner .inner .copy::after {
+	background-color: #06866b;
+}
+
+.leadership-banner {
+	background-image: none;
+	background-position: center !important;
+	background-size: cover;
+}
+.leadership-banner-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-image: url("../images/sub/leadership/banner-desktop.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat
+}
+
+.location-banner {
+	background-image: url(../images/sub/locations/banner.jpg);
+	background-position: center !important;
+}
+
+.non-descrimination-banner {
+	background-image: url("../images/global/blog-banner.jpg");
+}
+
+.occupational-therapy-banner {
+	background-image: url("../images/sub/occ-therapy/banner-occ-therapy-desktop.jpg");
+}
+.occupational-therapy-banner .inner .copy::after {
+	background-color: #06866b !important;
+}
+
+.pd-nursing-banner {
+	background-image: url("../images/sub/pediatric-apdn/banner-ped-apdn-desktop.jpg");
+}
+.pd-nursing-banner .inner .copy::after {
+	background-color: #0077bc !important;
+}
+
+.pdhc-banner  {
+	background-image: url("../images/sub/pdhc/banner-pdhc-desktop.jpg");
+}
+.pdhc-banner  .inner .copy::after {
+	background-color: #0077bc !important;
+}
+
+.pediatric-pc-banner {
+	background-image: url("../images/sub/ped-personal-care/banner-ped-pc-desktop.jpg");
+}
+.pediatric-pc-banner .inner .copy::after {
+	background-color: #0077bc !important;
+}
+
+.pediatric-pdn-banner  {
+	background-image: url("../images/sub/pediatric-pdn/banner-ped-pdn-desktop.jpg");
+}
+
+.pediatric-therapy-banner {
+	background-image: url("../images/sub/ped-therapy/banner-ped-therapy-desktop.jpg");
+}
+.pediatric-therapy-banner .inner .copy::after {
+	background-color: #06866b !important;
+}
+
+.personal-care-banner {
+	background-image: url("../images/sub/pers-care-and-companionship/banner-pers-care-desktop.jpg");
+}
+.personal-care-banner .inner .copy::after {
+	background-color: #0077bc !important;
+}
+
+.phys-therapy-banner {
+	background-image: url("../images/sub/phys-therapy/banner-phys-therapy-desktop.jpg");
+}
+.phys-therapy-banner .inner .copy::after {
+	background-color: #06866b !important;
+}
+
+.privacy-banner {
+	background-image: url(../images/sub/privacy-policy/banner.jpg);
+}
+.privacy-banner .inner .copy::after {
+	background-color: #06866b;
+}
+
+
+.medical-bill-banner {
+	background-image: url('../images/sub/medical-bills/medical-bills-banner.jpg');
+}
+.medical-bill-banner .inner .copy::after {
+	background-color: #06866b;
+}
+
+.privacy-banner-2 {
+	background-image: url(../images/sub/privacy-policy/banner-2.jpg);
+}
+.privacy-banner-2 .inner .copy::after {
+	background-color: #06866b;
+}
+
+.privacy-banner-3 {
+	background-image: url(../images/sub/privacy-policy/banner-3.jpg);
+}
+.privacy-banner-3 .inner .copy::after {
+	background-color: #06866b;
+}
+
+.referral-banner {
+	background-image: url("../images/sub/referrals/banner-desktop2.jpg");
+}
+
+.hhh-banner .referral-banner {
+	background-image: url("../images/sub/referral-sources/banner-referral-desktop.jpg");
+}
+.hhh-banner .referral-banner .inner .copy::after {
+	background-color: #047d96 !important;
+}
+
+.school-nursing-banner {
+	background-image: url("../images/sub/school-nursing/banner-sch-nursing-desktop.jpg");
+}
+.school-nursing-banner .inner .copy::after {
+	background-color: #06866b !important;
+}
+
+.school-staff-banner {
+	background-image: url("../images/sub/educational/banner-desktop.jpg");
+}
+.school-staff-banner .inner .copy::after {
+	background-color: #047d96 !important;
+}
+
+.sl-therapy-banner {
+	background-image: url("../images/sub/speech-lang-therapy/banner-sl-therapy-desktop.jpg");
+}
+.sl-therapy-banner .inner .copy::after {
+	background-color: #06866b !important;
+}
+
+.specialty-banner {
+	background-image: url("../images/sub/specialty-programs/banner-specialty-desktop.jpg");
+}
+.specialty-banner .inner .copy::after {
+	background-color: #047d96 !important;
+}
+
+.support-serv-banner {
+	background-image: url("../images/sub/support-service/banner-support-serv-desktop.jpg");
+}
+.support-serv-banner .inner .copy::after {
+	background-color: #0077bc;
+}
+
+.story-banner {
+	background-image: url("../images/sub/our-story/banner.jpg");
+	background-position: center !important;
+}
+
+.testimonials-banner {
+	background-image: url("../images/sub/patient-testimonials/banner-testimonials-desktop.jpg");
+}
+.testimonials-banner .inner .copy::after {
+	background-color: #047d96 !important;
+}
+
+.totalcare-banner {
+	background-image: url("../images/sub/totalcare/banner.jpg");
+}
+
+.values-banner {
+	background-image: url("../images/sub/values/banner.jpg");
+}
+.new-values-banner {
+	background-image: url("../images/sub/values/banner2.jpg");
+}
+
+.our-story-banner {
+	background-image: url("../images/sub/banner-desktop.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.phys-therapy-banner {
+	background-image: url("../images/sub/phys-therapy/banner-phys-therapy-desktop.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.pdhc-banner {
+	background-image: url("../images/sub/pdhc/banner-pdhc-desktop.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+/*-- ---- ---- ---- MAIN SECONDARY NAV ---- ---- ---- --*/
+
+ul.secondary-nav {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	background-color: #0077bc;
+	margin-top: 3px;
+}
+ul.secondary-nav li {
+	width: 33.3%;
+	text-align: center;
+}
+ul.secondary-nav li a {
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: .1em;
+	padding: 20px;
+}
+ul.secondary-nav li:first-child a {
+	background-color: #0077bc;
+	border-right: 1px solid #ffffff;
+}
+ul.secondary-nav li:nth-child(2) a {
+	background-color: #047d96;
+	border-right: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+}
+ul.secondary-nav li:last-child a {
+	background-color: #06866b;
+	border-left: 1px solid #ffffff;
+}
+
+
+/*-- ---- ---- ---- SEARCH STYLES ---- ---- ---- --*/
+
+#search-content h2 {
+	display: block;
+	vertical-align: middle;
+	text-align: left;
+	margin-bottom: .35em;
+}
+#search-content form {
+	border: 1px solid #cccccc;
+	border-radius: 50px;
+	/* padding: 0px 70px 0px 0px; */
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	z-index: 5;
+}
+#search-content form input {
+	-moz-appearance: none;
+	appearance: none;
+	font-family: proxima-nova, sans-serif;
+	margin: 0px;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 3px 105px 5px 15px;
+	background-color: rgba(255,255,255,0);
+	border: 0px solid #0077BC;
+  	color: #999999 !important;
+}
+#search-content form input::-webkit-input-placeholder {
+  color: #ffffff !important;
+}
+#search-content form input:-moz-placeholder {
+  color: #ffffff !important;
+}
+#search-content form input::-moz-placeholder {
+  color: #ffffff !important;
+}
+#search-content form input:-ms-input-placeholder {
+  color: #ffffff !important;
+}
+#search-content form button {
+	-moz-appearance: none;
+	appearance: none;
+	font-family: proxima-nova, sans-serif;
+	border: none;
+	border-radius: 50px;
+	position: absolute;
+	right: 1px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #ffffff;
+	background-color: #0077BC;
+	font-size: 15px;
+	line-height: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: .03em;
+	padding: 7px 15px;
+}
+#search-results {
+	/* wrapper around search results */
+	text-align: left;
+}
+#search-results h3 {
+	margin: .5em 0px -.25em;
+}
+#search-results .search-title {
+	/* search match link */
+	font-weight: bold;
+}
+#search-results .search-hit {
+	padding: 2em 10px;
+	border-bottom: 1px solid rgba(0,120,190,.25);
+}
+#search-results .search-hit a {
+	display: inline-block;
+	color: rgba(0,120,190,1);
+	font-size: 31px;
+	line-height: 31px;
+	font-weight: 300;
+	text-decoration: none;
+	margin-bottom: .35em;
+	position: relative;
+	transition: all .2s ease-in-out;
+	padding: 0px 0px 4px;
+}
+#search-results .search-hit a:hover, #search-results .search-hit a:focus, #search-results .search-hit a:active {
+	color: #06866b;
+}
+#search-results .search-hit a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: calc(100% - 2px);
+	background-color: #0077BC;
+	height: 2px;
+	transform: scaleX(0);
+	transition: all .2s ease-in-out;
+}
+#search-results .search-hit a:hover::after, #search-results .search-hit a:focus::after, #search-results .search-hit a:active::after {
+	background-color: #06866b;
+	transform: scaleX(1);
+}
+#search-results .search-fragments {
+	font-size: 16px;
+	line-height: 21px;
+	padding: 0px 30px;
+}
+#search-results .search-fragment em {
+	/* highlighted keyword match */
+	font-weight: bold;
+	color: #0077bc;
+}
